@@ -1,0 +1,52 @@
+.project-main {
+    background-color: #fafafa;
+    width: 100vw;
+    height: 100vh;
+    padding: 3rem 2rem;
+}
+
+.project-main h1 {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.content {
+    padding: 4rem 1rem;
+    display: flex;
+}
+
+.left {
+    width: 70vw;
+}
+
+.right {
+    width: 30vw;
+}
+
+.right img {
+    width: 20rem;
+}
+
+.right p {
+    margin-left: 2rem;
+}
+
+.inp-form {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.inp-form p {
+    margin-left: .2rem;
+    color: #958f8f;
+}
+
+.inner-inp {
+    width: 30rem;
+    gap: 2rem;
+    display: flex;
+}
+
+/* #f0f0f0 */
