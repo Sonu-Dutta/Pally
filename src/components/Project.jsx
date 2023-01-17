@@ -18,12 +18,11 @@ const Project = () => {
        <form className='inp-form'>
        <TextField id="filled-basic" onChange={(e)=>(setData((data)=>{return{...data,name:e.target.value}}))} label="Name:" variant="filled" />
        <TextField id="filled-basic" onChange={(e)=>(setData((data)=>{return{...data,desc:e.target.value}}))} label="Description:" variant="filled" />
-       <p>Will be shown when choosing a pattern on the robot
-</p>
+       <p>Will be shown when choosing a pattern on the robot</p>
        </form>
      </div>
      <div className='right'>
-        <img src={projectImg} alt="" />
+        <img src={projectImg} alt="" width={200} height={200} />
      </div>
      </div>
     </div>

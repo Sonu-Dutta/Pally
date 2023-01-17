@@ -42,7 +42,7 @@ const Pallet = () => {
        </form>
      </div>
      <div className='right'>
-        <img src={productImg} alt="" />
+        <img src={productImg} alt="" height={200} width={200} />
         <p>Pallet dimensions</p>
      </div>
      </div>

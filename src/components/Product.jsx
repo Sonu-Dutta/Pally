@@ -29,7 +29,7 @@ const Product = () => {
        </form>
      </div>
      <div className='right'>
-        <img src={productImg} alt="" />
+        <img src={productImg} alt="" width={100} height={100} />
         <p>Product dimensions</p>
      </div>
      </div>

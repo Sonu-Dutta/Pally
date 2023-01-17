@@ -25,7 +25,7 @@ The max number of products that can be lifted at once
        </form>
      </div>
      <div className='right'>
-        <img src={palletImg} alt="" />
+        <img src={palletImg} alt="" width={100} height={100} />
         <p>Box Padding</p>
      </div>
      </div>
