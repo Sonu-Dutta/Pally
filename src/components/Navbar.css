@@ -13,6 +13,8 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    background-color: rgb(17, 46, 81) !important;
+
 }
 
 .logo {
@@ -24,8 +26,12 @@
 .menu-heading {
     margin: 48px 0px 48px 8px;
     padding: 0px 15px;
-    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 500;
     color: #000000de;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .menu-wrapper {
@@ -34,12 +40,12 @@
     width: 300px;
     /* padding-right: 15px;
     padding-left: 15px; */
-    /* font-family: Source Sans Pro,sans-serif; */
+    font-family: 'Source Sans Pro',sans-serif;
 }
 
 .menu-list {
     display: flex;
-    /* justify-content: center; */
+    justify-content: space-between;
     color: rgba(0, 0, 0, .87);
     font-size: 16px;
     height: 5rem;
@@ -47,16 +53,41 @@
     align-items: center;
     position: relative;
     border-bottom: 1px solid #c7cbce;
+    font-family: 'Roboto', sans-serif;
 }
 
 
-.arrow {
-    position: absolute;
-    right: .5rem;
-    transform: scale(.56);
-}
 
 .menu-list:hover {
     background-color: #f1f1f1;
     cursor: pointer;
+}
+
+.navicon{
+    padding: 0px;
+    /* display: flex !important;
+    justify-content: center !important;
+    align-items: center !important; */
+height: 5rem;
+
+}
+.navicon:hover{
+    background: white !important;
+}
+
+.icon-parent{
+    /* display: flex;
+    justify-content:center ;
+    background-color: bisque;
+    
+    align-items: center; */
+}
+.color{
+    background-color: bisque;
+
+}
+
+.arrow{
+    height: 16px !important; 
+    width: 16px !important;
 }

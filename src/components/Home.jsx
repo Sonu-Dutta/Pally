@@ -1,20 +1,17 @@
 import React,{useState} from 'react'
 import Navbar from './Navbar'
-import Menu from './Menu'
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Link
 } from "react-router-dom";
-import Project from './Project';
-import Product from './Product';
-import Pallet from './Pallet';
-import Palletizing from './Palletizing';
+import ProjectData from './ProjectData';
+import HomeDisplay from './HomeDisplay';
+
 
 
 function Home() {
-  const [show,setShow]=useState("project")
 
 
   return (
@@ -22,20 +19,21 @@ function Home() {
     <Router>
     <div className='whole'>
         <div className='navbar-wrapper'><Navbar/></div>
+
+        <Routes>
+            <Route path='/home' element={<HomeDisplay/>}/>
+            <Route path='/projectdata' element={<ProjectData/>}/>
+            {/* <Route path='/' element={}/> */}
+            <Route path='/' element={<HomeDisplay/>}/>
+          </Routes>
+
+
+
+
+
+
       
-        <div className='menu-wrapper' ><Menu setShow={setShow}/></div>
-        <div>
-
-          {show ==="project" ?<Project/>:(show==="product"?<Product/>:(show==="pallet"?<Pallet/>:(show==="palletizing"?<Palletizing/>:<></>)))}
-
-          {/* <Routes>
-            <Route path='/' element={}/>
-            <Route path='/' element={}/>
-            <Route path='/' element={}/>
-            <Route path='/' element={}/>
-          </Routes> */}
-
-        </div>
+        
     </div>
     </Router>
     </>

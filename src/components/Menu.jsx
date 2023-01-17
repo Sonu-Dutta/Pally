@@ -8,10 +8,22 @@ function Menu({setShow}) {
             Project data
         </div>
         <div>
-          <div className='menu-list' onClick={()=>{setShow("project")}} >Project <span className='arrow' ><ArrowForwardIosIcon/> </span></div>
-          <div className='menu-list' onClick={()=>{setShow("product")}}>Product <span className='arrow'><ArrowForwardIosIcon/></span> </div>
-          <div className='menu-list' onClick={()=>{setShow("pallet")}}>Pallet <span className='arrow'><ArrowForwardIosIcon/> </span></div>
-          <div className='menu-list' onClick={()=>{setShow("palletizing")}}>Palletizing <span className='arrow'><ArrowForwardIosIcon/></span> </div>
+          <div className='menu-list'>
+          <div  onClick={()=>{setShow("project")}} >Project </div>
+          <div  ><ArrowForwardIosIcon className='arrow' /> </div>
+          </div>
+
+          <div className='menu-list'>
+          <div  onClick={()=>{setShow("product")}}>Product  </div>
+          <div  ><ArrowForwardIosIcon className='arrow' /> </div>
+          </div>
+          <div className='menu-list'>
+          <div  onClick={()=>{setShow("pallet")}}>Pallet </div>
+          <div  ><ArrowForwardIosIcon className='arrow' /> </div>
+          </div><div className='menu-list'>
+          <div onClick={()=>{setShow("palletizing")}}>Palletizing  </div>
+          <div  ><ArrowForwardIosIcon className='arrow'/> </div>
+          </div>
         </div>
     </div>
   )
