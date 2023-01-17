@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Project.css'
-import palletImg from './images/palletizing.png'
+import palletImg from '../assets/palletizing.png'
 import TextField from '@mui/material/TextField'
 
 const Palletizing = () => {

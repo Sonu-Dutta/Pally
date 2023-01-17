@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Project.css'
-import projectImg from './images/project.png'
+import projectImg from '../assets/project.png'
 import TextField from '@mui/material/TextField'
 
 const Project = () => {

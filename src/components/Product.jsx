@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Project.css'
-import productImg from './images/product.png'
+import productImg from '../assets/product.png'
 import TextField from '@mui/material/TextField'
 import Switch from '@mui/material/Switch';
 // import FormGroup from '@mui/material/FormGroup';

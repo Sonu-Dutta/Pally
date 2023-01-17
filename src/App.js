@@ -3,6 +3,7 @@ import Pallet from "./components/Pallet";
 import Palletizing from "./components/Palletizing";
 import Product from "./components/Product";
 import Project from "./components/Project";
+import Home from "./components/Home"
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <Project /> */}
       {/* <Palletizing /> */}
       {/* <Product /> */}
-      <Pallet />
+      {/* <Pallet /> */}
+      <Home/>
     </div>
   );
 }
